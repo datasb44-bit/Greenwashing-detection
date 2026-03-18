@@ -15,3 +15,7 @@ An automated pipeline to detect potential "greenwashing" in e-commerce listings 
 ## 📊 Methodology
 The model defines **Greenwashing** as:
 `y = 1 if (Text_Claim OR Image_Claim) AND Review_Does_Not_Confirm`
+
+Dataset Configuration
+Place your amazon.csv file in the root directory.
+Note: Dataset used:https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset

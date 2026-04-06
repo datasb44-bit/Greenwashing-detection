@@ -45,7 +45,7 @@ Dataset: Karkavelraja J. *Amazon Sales Dataset*. Kaggle, 2023. https://www.kaggl
 
 ## 📁 Reproducibility
 
-The raw dataset is publicly available on Kaggle (link above). All pipeline parameters and random seeds are logged to `run_config.json` on each run. Train/test split indices are saved as `train_idx.npy` and `test_idx.npy`, enabling exact reproduction of model evaluation. Note that image-derived features (`img_green_flag`, `img_green_ratio`) depend on Amazon URL availability and may vary over time — this is acknowledged as a limitation.
+The raw dataset is publicly available on Kaggle (link above). All pipeline parameters and random seeds are logged to `run_config.json` on each run. Train/test split indices are saved as `train_idx.npy` and `test_idx.npy`, enabling exact reproduction of model evaluation. Note that image-derived features (`img_green_flag`, `img_green_ratio`) depend on Amazon URL availability and may vary over time.
 
 ## 📄 License
 
